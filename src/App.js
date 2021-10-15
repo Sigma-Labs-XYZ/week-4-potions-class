@@ -39,7 +39,7 @@ class App extends React.Component {
     return (
     <div className="app-wrapper">
       <div id="column-1">
-        <Search students={students} displayStudent={this.displayStudent}/>
+        <Search students={students} displayStudent={this.displayStudent} updateStudentRecord={this.updateStudentRecord}/>
         <StudentForm updateStudents={this.updateStudentRecord} students={students}/>
       </div>
 

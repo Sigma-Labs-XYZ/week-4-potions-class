@@ -16,11 +16,8 @@ class Register extends React.Component {
   }
 
   updateLateRecord = (personId, isLate) => {
-      const hasSearched = this.props.selectedStudent.length === 0;
-      const updatedStudents = hasSearched ? [...this.props.selectedStudent] : [...this.props.students] ;
-      const index = hasSearched ? 0 : personId;
-      updatedStudents[index].isLate = isLate;
-
+      const updatedStudents = [...this.props.students];
+      updatedStudents[personId].isLate = isLate;
       this.props.updateStudents(updatedStudents);
   }
 

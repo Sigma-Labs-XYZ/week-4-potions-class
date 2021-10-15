@@ -11,10 +11,6 @@ class Search extends React.Component {
     }
   }
 
-  updateStudentRecord = (students) => {
-    this.setState({students});
-  }
-
   updateMatches = async (currentSearchText) => {
       const {students} = this.props;
       let filteredStudents = students.filter(student => student.name.toLowerCase().includes(currentSearchText.toLowerCase()));

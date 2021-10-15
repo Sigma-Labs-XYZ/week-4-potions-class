@@ -1,6 +1,5 @@
 {
   "name": "hogwarts",
-  "homepage": "https://sigma-labs-xyz.github.io/week-4-potions-class",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
