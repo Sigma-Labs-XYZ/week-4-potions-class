@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <header id="title">Potions Class</header>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
