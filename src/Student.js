@@ -8,7 +8,7 @@ class Student extends React.Component {
     }
 
     getHouseImgURL(house) {
-        return `../hogwarts-img/${house.toLowerCase()}.png`
+        return `./hogwarts-img/${house.toLowerCase()}.png`
     }
 
     handleCheckboxChange = (e) => {
