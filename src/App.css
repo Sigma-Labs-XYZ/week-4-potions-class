@@ -27,11 +27,6 @@ body {
 }
 
 /* Form CSS */
-.add-students {
-	margin: 20px;
-	display: flex;
-}
-
 .form-wrapper {
 	z-index: 100;
 	margin-top: 20%;
