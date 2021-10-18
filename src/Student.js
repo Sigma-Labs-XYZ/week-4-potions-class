@@ -20,9 +20,7 @@ class Student extends React.Component {
     return (
     <div className="student-record">   
         <div className={isLate ? "student-record-info-is-late" : "student-record-info"}>
-            <div className="student-record-house-badge-img-container">
                 <img className="student-record-house-badge" src={this.getHouseImgURL(house)} alt={`${house} logo`}/>
-            </div>
             <div className="student-record-class-info">
                 <h3 className="student-record-student-name">{name}</h3> 
                 Entered class at <br/>{time}
