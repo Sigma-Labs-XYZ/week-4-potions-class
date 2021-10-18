@@ -19,17 +19,17 @@ class Student extends React.Component {
       const {name, house, isLate, time, id} = this.props.student;
     return (
     <div className="student-record">   
-        <div className={isLate ? "student-info-is-late" : "student-info"}>
-            <div className="house-badge-img-container">
-                <img className="house-badges" src={this.getHouseImgURL(house)} alt={`${house} logo`}/>
+        <div className={isLate ? "student-record-info-is-late" : "student-record-info"}>
+            <div className="student-record-house-badge-img-container">
+                <img className="student-record-house-badge" src={this.getHouseImgURL(house)} alt={`${house} logo`}/>
             </div>
-            <div className="student-class-info">
-                <h3 className="student-name">{name}</h3> 
+            <div className="student-record-class-info">
+                <h3 className="student-record-student-name">{name}</h3> 
                 Entered class at <br/>{time}
             </div>
-            <div className="late-checker">
-                <label className="late-checker-container"> Mark as late
-                    <input id={id} className="late-checker-checkbox" onChange={this.handleCheckboxChange} checked={isLate} type="checkbox"/>
+            <div className="student-record-late-checker">
+                <label className="student-record-late-checker-container"> Mark as late
+                    <input id={id} className="student-record-late-checker-checkbox" onChange={this.handleCheckboxChange} checked={isLate} type="checkbox"/>
                     <span className="checkmark"></span>
                 </label>
                 

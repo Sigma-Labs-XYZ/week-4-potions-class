@@ -23,9 +23,9 @@ class Register extends React.Component {
 
   render() { 
     return (
-     <div id="register">
+     <div id="register-wrapper">
         <RegisterHeader/>
-        <div className="register-table">
+        <div className="register-list">
         {this.createRegister()}
         </div>
      </div>

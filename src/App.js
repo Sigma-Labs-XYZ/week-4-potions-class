@@ -38,12 +38,13 @@ class App extends React.Component {
     const {students, selectedStudent} = this.state;
     return (
     <div className="app-wrapper">
-      <div id="column-1">
+      <div id="app-lhs-container">
         <Search students={students} displayStudent={this.displayStudent} updateStudentRecord={this.updateStudentRecord}/>
         <StudentForm updateStudents={this.updateStudentRecord} students={students}/>
       </div>
-
-      <Register students={students} selectedStudent={selectedStudent} updateStudents={this.updateStudentRecord} />
+      <div id="app-rhs-container">
+        <Register students={students} selectedStudent={selectedStudent} updateStudents={this.updateStudentRecord} />
+      </div>
     </div>
   );
   }

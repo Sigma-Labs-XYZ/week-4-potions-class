@@ -28,8 +28,6 @@ body {
 
 /* Form CSS */
 .add-students {
-	float: left;
-	padding: 10px;
 	margin: 20px;
 	display: flex;
 }
@@ -39,6 +37,10 @@ body {
 	margin-top: 20%;
 	width: 30vw;
 	margin-right: 4em;
+	margin-left: 2em;
+	display: flex;
+	float: left;
+	padding: 10px;
 	/* background-image: url("https://my.wizardingworld.com/static/media/explosion.6b529fd2.png"); */
 }
 
@@ -131,7 +133,7 @@ select {
 }
 
 /* Record component CSS */
-#register {
+#register-wrapper {
 	float: right;
 	margin: 0.2em;
 	margin-top: 2em;
@@ -141,16 +143,9 @@ select {
 	overflow: auto;
 }
 
-.register-table {
+.register-list {
 	margin-top: 2em;
 	overflow: auto;
-}
-
-.student-record {
-	background-color: rgba(66, 50, 97, 0.233);
-	border-radius: 20px;
-	height: 6.5em;
-	margin-top: 10px;
 }
 
 #register-component-header {
@@ -179,34 +174,42 @@ select {
 }
 
 /* Student record CSS */
-.house-badge-img-container {
-	display: flex;
-	width: 20%;
+
+.student-record {
+	background-color: rgba(66, 50, 97, 0.233);
+	border-radius: 20px;
+	height: 6.5em;
+	margin-top: 10px;
 }
 
-.house-badges {
-	height: 6em;
-	margin-left: 2.3em;
-	margin-top: 0.3em;
-}
-.student-class-info {
-	float: right;
-	right: 0px;
-	margin-left: 5%;
-	margin-left: 1.5em;
-}
-
-.student-info {
+.student-record-info {
 	display: flex;
 }
 
-.student-info-is-late {
+.student-record-info-is-late {
 	display: flex;
 	border-radius: 10px;
 	border: 3px solid rgba(173, 28, 28, 0.61);
 	box-shadow: 4px 3px 20px rgba(199, 23, 23, 0.76);
 }
-.student-name {
+
+.student-record-house-badge-img-container {
+	display: flex;
+	width: 20%;
+}
+
+.student-record-house-badge {
+	height: 6em;
+	margin-left: 2.3em;
+	margin-top: 0.3em;
+}
+.student-record-class-info {
+	float: right;
+	right: 0px;
+	margin-left: 5%;
+	margin-left: 1.5em;
+}
+.student-record-student-name {
 	margin-bottom: 0;
 	margin-top: 0.5em;
 	font-size: xx-large;
@@ -214,11 +217,11 @@ select {
 
 /* Checkbox styling for late checker */
 
-.late-checker {
+.student-record-late-checker {
 	margin-top: 2em;
 	margin-left: 2em;
 }
-.late-checker-container {
+.student-record-late-checker-container {
 	display: block;
 	position: relative;
 	padding-left: 35px;
@@ -231,7 +234,7 @@ select {
 	user-select: none;
 }
 
-.late-checker-container input {
+.student-record-late-checker-container input {
 	position: absolute;
 	opacity: 0;
 	cursor: pointer;
@@ -239,19 +242,19 @@ select {
 	width: 0;
 }
 
-.late-checker-container:hover input ~ .checkmark {
+.student-record-late-checker-container:hover input ~ .checkmark {
 	background-color: rgba(173, 28, 28, 0.61);
 }
 
-.late-checker-container input:checked ~ .checkmark {
+.student-record-late-checker-container input:checked ~ .checkmark {
 	background-color: #7a1624;
 }
 
-.late-checker-container input:checked ~ .checkmark:after {
+.student-record-late-checker-container input:checked ~ .checkmark:after {
 	display: block;
 }
 
-.late-checker-container .checkmark:after {
+.student-record-late-checker-container .checkmark:after {
 	left: 9px;
 	top: 5px;
 	width: 5px;
