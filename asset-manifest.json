@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/week-4-potions-class/static/css/main.0e830489.chunk.css",
-    "main.js": "/week-4-potions-class/static/js/main.379cc758.chunk.js",
-    "main.js.map": "/week-4-potions-class/static/js/main.379cc758.chunk.js.map",
+    "main.css": "/week-4-potions-class/static/css/main.a3b1ebbc.chunk.css",
+    "main.js": "/week-4-potions-class/static/js/main.7921a7df.chunk.js",
+    "main.js.map": "/week-4-potions-class/static/js/main.7921a7df.chunk.js.map",
     "runtime-main.js": "/week-4-potions-class/static/js/runtime-main.9dda8a6a.js",
     "runtime-main.js.map": "/week-4-potions-class/static/js/runtime-main.9dda8a6a.js.map",
     "static/js/2.da34e398.chunk.js": "/week-4-potions-class/static/js/2.da34e398.chunk.js",
     "static/js/2.da34e398.chunk.js.map": "/week-4-potions-class/static/js/2.da34e398.chunk.js.map",
     "index.html": "/week-4-potions-class/index.html",
-    "static/css/main.0e830489.chunk.css.map": "/week-4-potions-class/static/css/main.0e830489.chunk.css.map",
-    "static/js/2.da34e398.chunk.js.LICENSE.txt": "/week-4-potions-class/static/js/2.da34e398.chunk.js.LICENSE.txt"
+    "static/css/main.a3b1ebbc.chunk.css.map": "/week-4-potions-class/static/css/main.a3b1ebbc.chunk.css.map",
+    "static/js/2.da34e398.chunk.js.LICENSE.txt": "/week-4-potions-class/static/js/2.da34e398.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/week-4-potions-class/static/media/MasonSansRegular_Regular.23f7192d.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.9dda8a6a.js",
     "static/js/2.da34e398.chunk.js",
-    "static/css/main.0e830489.chunk.css",
-    "static/js/main.379cc758.chunk.js"
+    "static/css/main.a3b1ebbc.chunk.css",
+    "static/js/main.7921a7df.chunk.js"
   ]
 }
